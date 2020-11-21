@@ -8,7 +8,7 @@ known_face_names = []
 
 ##You can append any number of images you like.
 ##For-Loop around more than one image Recommended.
-img = fr.load_image_file('Stavan.jpeg')
+img = fr.load_image_file('stavan.jpeg')
 img_encoding = fr.face_encodings(img)[0]
 known_face_encondings = [img_encoding]
 known_face_names = ['Stavan']   #Name of the person in image
