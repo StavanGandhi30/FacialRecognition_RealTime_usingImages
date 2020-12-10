@@ -13,7 +13,7 @@ img_encoding = fr.face_encodings(img)[0]
 known_face_encondings = [img_encoding]
 known_face_names = ['Stavan']   #Name of the person in image
 
-unKnown = True
+notIdentify = True
 while notIdentify: 
     _, frame = video_capture.read()
     rgb_frame = frame[:, :, ::-1]
